@@ -1,4 +1,4 @@
-Employee Attrition Analysis | Excel & Python
+**Employee Attrition Analysis Using Excel & Python**
 
 Project Overview
 
