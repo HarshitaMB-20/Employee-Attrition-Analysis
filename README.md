@@ -1,33 +1,43 @@
-**Employee Attrition Analysis Using Excel & Python**
 
-Project Overview
+# 📊 Employee Attrition Analysis Dashboard using Excel and Python
 
-Employee attrition is a major challenge for organizations.
-This project analyzes HR data to identify **key factors contributing to employee attrition** using **Python for data preparation** and **Excel for analysis and dashboarding**.
 
-The goal is to provide **actionable insights** that help HR teams reduce employee turnover.
+## 📌 Project Overview
 
-🎯 Objectives
+Employee attrition is a critical challenge for organizations.
+This project analyzes HR data to identify **key factors influencing employee attrition** using **Python for data preparation** and **Microsoft Excel for analysis and dashboard creation**.
 
-* Calculate overall employee attrition rate
+The final output is an **interactive Excel dashboard** that presents actionable HR insights.
+
+---
+
+## 🎯 Objectives
+
+* Calculate the **overall employee attrition rate**
 * Identify departments with higher attrition
-* Analyze the impact of **salary** on attrition
-* Analyze the impact of **employee tenure (experience)** on attrition
-* Present insights using a **professional Excel dashboard**
+* Analyze the relationship between **salary and attrition**
+* Analyze the relationship between **employee tenure and attrition**
+* Present insights using a clean and professional Excel dashboard
 
-🛠 Tools & Technologies
+---
 
-* **Python** (Pandas) – data loading and preprocessing
+## 🛠 Tools & Technologies
+
+* **Python**
+
+  * Pandas (data loading & preprocessing)
 * **Microsoft Excel**
 
-  * Tables
+  * Excel Tables
   * Pivot Tables
-  * Calculated percentages
-  * Dashboard creation
+  * Percentage calculations
+  * Dashboard design
 
- 📂 Dataset
+---
 
-* **IBM HR Analytics Employee Attrition Dataset**
+## 📂 Dataset
+
+* **IBM HR Analytics – Employee Attrition Dataset**
 * File format: CSV / Excel
 * Key columns used:
 
@@ -37,45 +47,57 @@ The goal is to provide **actionable insights** that help HR teams reduce employe
   * YearsAtCompany
   * Gender
 
- 🔄 Project Workflow
+---
 
-1. Loaded and cleaned HR data using **Python**
+## 🔄 Project Workflow
+
+1. Loaded and cleaned HR data using Python
 2. Exported cleaned data to Excel
-3. Converted data into structured **Excel Tables**
-4. Created multiple **Pivot Tables** for analysis
-5. Built a **dashboard** to summarize insights
+3. Converted raw data into structured Excel tables
+4. Created pivot tables for attrition analysis
+5. Built an Excel dashboard to summarize insights
 
- 📈 Key Analyses Performed
+---
 
-1️⃣ Overall Attrition Rate
+## 📊 Analysis Performed
+
+### 1️⃣ Overall Attrition Rate
 
 * Calculated percentage of employees who left vs stayed
-* **Attrition Rate ≈ 16%**
+* **Overall attrition rate ≈ 16%**
 
-2️⃣ Department-wise Attrition
+### 2️⃣ Department-wise Attrition
 
 * Compared attrition across departments
 * **Sales department showed the highest attrition**
 
-3️⃣ Salary vs Attrition
+### 3️⃣ Salary vs Attrition
 
 * Employees who left had **lower average monthly income**
 * Indicates compensation as a contributing factor
 
-4️⃣ Experience vs Attrition
+### 4️⃣ Experience vs Attrition
 
 * Employees with **shorter tenure** were more likely to leave
 * Highlights early-stage attrition risk
 
+---
 
-📊 Excel Dashboard
+## 📈 Excel Dashboard
 
-The final dashboard includes:
+The dashboard includes:
 
-* Overall Attrition Rate
-* Department-wise Attrition
+* Overall Employee Attrition Rate
+* Department-wise Attrition Rate
 * Average Monthly Income vs Attrition
 * Average Years at Company vs Attrition
 
+---
+
+## 📎 Project Files
+
+* `HR_Employee_Attrition.csv`
+* `Employee_Attrition_Analysis_Dashboard.xlsx`
+* `README.md`
 
 
